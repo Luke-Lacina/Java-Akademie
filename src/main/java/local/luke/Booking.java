@@ -17,7 +17,7 @@ public class Booking {
     this.bookingTo = bookingTo;
     this.typeOfVacation = typeOfVacation;
     }
-    
+
     public Booking(Room bookingOfRoom, Guest bookingOfGuest, TypeOfVacation typeOfVacation) {
     this(bookingOfRoom, bookingOfGuest, LocalDate.now(), LocalDate.now().plusDays(6), typeOfVacation);
     }
